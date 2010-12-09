@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#ffffff">
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_height="320dip" android:layout_y="110dip"
+		android:background="#ffffff" android:layout_width="310dip"
+		android:layout_x="5dip" />
+
+	<EditText android:text="Enter Word or Phrase!"
+		android:textSize="18sp" android:layout_x="0dip" android:id="@+id/EditText01"
+		android:layout_y="10dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+
+	<EditText android:text="1,2,3,4,5" android:textSize="18sp"
+		android:layout_x="0dip" android:id="@+id/chartData01"
+		android:layout_y="150dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+
+	<EditText android:text="1,2,3,4,5" android:textSize="18sp"
+		android:layout_x="0dip" android:id="@+id/chartData02"
+		android:layout_y="200dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+
+	<EditText android:text="1,2,3,4,5" android:textSize="18sp"
+		android:layout_x="0dip" android:id="@+id/chartData03"
+		android:layout_y="250dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+
+	<EditText android:text="Label,Label,Label" android:textSize="18sp"
+		android:layout_x="0dip" android:id="@+id/chartData04"
+		android:layout_y="320dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+
+	<ProgressBar android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/ProgressBar01" android:layout_x="255dip"
+		android:layout_y="10dip" android:indeterminate="true" android:background="@drawable/icon">
+	</ProgressBar>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_x="0dip"
+		android:layout_y="65dip" android:text="Create Chart" android:id="@+id/createChart">
+	</Button>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_y="65dip"
+		android:text="Chart Setup" android:id="@+id/chartSetup"
+		android:layout_x="0dip">
+	</Button>
+	<ImageButton android:layout_y="65dip"
+		android:id="@+id/chartSend"
+		android:layout_width="50dip" android:layout_x="260dip" android:layout_height="50dip" android:src="@drawable/send" android:scaleType="centerInside">
+	</ImageButton>
+
+	<Spinner android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_y="65px"
+		android:prompt="@string/chart_prompt"
+		android:id="@+id/chartSelect" android:layout_x="105px"/>
+
+	<TextView android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_x="10dip" android:layout_y="130dip" android:textColor="#000000" android:textSize="16sp" android:text="Data (comma separated)"></TextView>
+	<TextView android:id="@+id/TextView02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_y="300dip" android:layout_x="10dip" android:text="Labels (comma separated)" android:textColor="#000000" android:textSize="16sp"></TextView>
+</AbsoluteLayout>

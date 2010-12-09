@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chart_prompt">Chart Type</string>
+    <string-array name="chart_array">
+        <item>Bar Chart</item>
+        <item>Pie Chart</item>
+        <item>Line Chart</item>
+        <item>QR Barcode</item>
+    </string-array>
+    <string name="app_name">Chart Express</string>
+</resources>
