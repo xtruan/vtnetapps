@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout android:id="@+id/widget0"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<ImageView android:id="@+id/ImageView01" android:layout_x="0dip"
+		android:layout_y="0dip" android:layout_width="320dip"
+		android:background="@drawable/anagram" android:layout_height="430dip"></ImageView>
+	<EditText android:text="Enter Word or Phrase!"
+		android:textSize="18sp" android:layout_x="0dip" android:id="@+id/EditText01"
+		android:layout_y="10dip" android:layout_height="50dip"
+		android:layout_width="240dip">
+	</EditText>
+	<ProgressBar android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:indeterminate="true"
+		android:id="@+id/ProgressBar01" android:layout_x="255dip"
+		android:layout_y="10dip">
+	</ProgressBar>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_x="0dip"
+		android:layout_y="66dip" android:id="@+id/Button01" android:text="Anagram it!">
+	</Button>
+
+	<ScrollView android:id="@+id/ScrollView01" android:layout_x="0dip"
+		android:layout_width="fill_parent" android:layout_y="200dip"
+		android:layout_height="230dip">
+
+		<TextView android:layout_width="wrap_content" android:id="@+id/TextView01"
+			android:layout_height="wrap_content"
+			android:scrollbarAlwaysDrawVerticalTrack="true" android:background="#000000"
+			android:textColor="#ffffff" android:textSize="18sp" android:text="Anagram it!">
+		</TextView>
+
+	</ScrollView>
+
+
+
+	<CheckBox android:layout_width="wrap_content" android:id="@+id/CheckBox01"
+		android:layout_height="wrap_content" android:layout_x="100dip"
+		android:layout_y="66dip" android:text="Show candidates only?"></CheckBox>
+
+
+</AbsoluteLayout>
